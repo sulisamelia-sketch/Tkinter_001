@@ -79,4 +79,19 @@ for i, mapel in enumerate(mata_pelajaran):
     # Menjalankan aplikasi
     root.mainloop()
                   
-    
+    # Membuat 10 label dan input nilai
+    for i, mapel in enumerate(mata_pelajaran):
+        label = tk.Label(
+            frame_input,
+            text=f"{mapel}:",
+            width=20,
+            anchor="w"
+        )
+        label.grid(row=i, column=0, padx=10, pady=5)
+                      
+        entry = ttk.Entry(frame_input, width=15)
+        entry.grid(row=i, column=1, padx=10, pady=5)
+                      
+        input_nilai.append(entry)
+                      
+        
