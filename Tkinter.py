@@ -19,3 +19,17 @@ judul.pack(pady=20)
 frame_input = tk.Frame(root)
 frame_input.pack(pady=5)
 
+# Daftar mata pelajaran
+mata_pelajaran = [
+    "Nilai Mata Pelajaran 1",
+    "Nilai Mata Pelajaran 2",
+    "Nilai Mata Pelajaran 3",
+    "Nilai Mata Pelajaran 4",
+    "Nilai Mata Pelajaran 5",
+    "Nilai Mata Pelajaran 6",
+    "Nilai Mata Pelajaran 7",
+    "Nilai Mata Pelajaran 8",
+    "Nilai Mata Pelajaran 9",
+    "Nilai Mata Pelajaran 10"
+]
+
