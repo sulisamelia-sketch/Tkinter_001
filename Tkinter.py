@@ -76,4 +76,7 @@ for i, mapel in enumerate(mata_pelajaran):
               )
     hasil.pack(pady=10)
               
+    # Menjalankan aplikasi
+    root.mainloop()
+                  
     
